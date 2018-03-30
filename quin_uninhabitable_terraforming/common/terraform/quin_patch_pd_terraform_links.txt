@@ -1,128 +1,12 @@
 @terraform_cost = 10000
 @terraform_duration = 7200
-##Uninhabitble##
-################
+#######################
+##PD Cold##
+#######################
+
 terraform_link = {
-	from = "pc_frozen"
-	to = "pc_genesis"
-	
-	energy = @terraform_cost
-	duration = @terraform_duration
-	
-	condition = {
-		has_technology = "tech_frozen_terraformation"
-	}
-	
-	ai_weight = {
-		weight = 2
-		modifier = {
-			factor = 0
-			OR = {
-				is_mechanical_empire = yes
-				is_cyborg_empire = yes
-				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-terraform_link = {
-	from = "pc_molten"
-	to = "pc_genesis"
-	
-	energy = @terraform_cost
-	duration = @terraform_duration
-	
-	condition = {
-		has_technology = "tech_molten_terraformation"
-	}
-	
-	ai_weight = {
-		weight = 2
-		modifier = {
-			factor = 0
-			OR = {
-				is_mechanical_empire = yes
-				is_cyborg_empire = yes
-				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_genesis"
-	
-	energy = @terraform_cost
-	duration = @terraform_duration
-	
-	condition = {
-		has_technology = "tech_barren_terraformation"
-	}
-	
-	ai_weight = {
-		weight = 2
-		modifier = {
-			factor = 0
-			OR = {
-				is_mechanical_empire = yes
-				is_cyborg_empire = yes
-				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_genesis"
-	
-	energy = @terraform_cost
-	duration = @terraform_duration
-	
-	condition = {
-		has_technology = "tech_barren_terraformation"
-	}
-	
-	ai_weight = {
-		weight = 2
-		modifier = {
-			factor = 0
-			OR = {
-				is_mechanical_empire = yes
-				is_cyborg_empire = yes
-				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-terraform_link = {
-	from = "pc_toxic"
-	to = "pc_genesis"
-	
-	energy = @terraform_cost
-	duration = @terraform_duration
-	
-	condition = {
-		has_technology = "tech_toxic_terraformation"
-	}
-	
-	ai_weight = {
-		weight = 2
-		modifier = {
-			factor = 0
-			OR = {
-				is_mechanical_empire = yes
-				is_cyborg_empire = yes
-				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-###########
-##Genesis##
-###########
-terraform_link = {
+	to = "pc_glacial"
 	from = "pc_genesis"
-	to = "pc_desert"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -144,8 +28,8 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_frozen_desert"
 	from = "pc_genesis"
-	to = "pc_arid"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -167,8 +51,8 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_steppe"
 	from = "pc_genesis"
-	to = "pc_savannah"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -190,8 +74,8 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_hadesert"
 	from = "pc_genesis"
-	to = "pc_arctic"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -213,8 +97,60 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_antarctic"
 	from = "pc_genesis"
-	to = "pc_tundra"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+##########
+##PD Dry##
+##########
+terraform_link = {
+	to = "pc_sandsea"
+	from = "pc_genesis"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+#############
+PD Cold/Wet##
+#############
+terraform_link = {
+	to = "pc_subarctic"
+	from = "pc_genesis"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -236,8 +172,8 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_geothermal"
 	from = "pc_genesis"
-	to = "pc_alpine"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -259,8 +195,8 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_cascadian"
 	from = "pc_genesis"
-	to = "pc_continental"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -282,8 +218,8 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_swamp"
 	from = "pc_genesis"
-	to = "pc_tropical"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -305,8 +241,60 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_mangrove"
 	from = "pc_genesis"
-	to = "pc_ocean"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+##########
+##PD Wet##
+##########
+terraform_link = {
+	to = "pc_mangrove"
+	from = "pc_genesis"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+##############
+##PD Dry/Wet##
+##############
+terraform_link = {
+	to = "pc_desertislands"
+	from = "pc_genesis"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
@@ -328,14 +316,138 @@ terraform_link = {
 	}
 }
 terraform_link = {
+	to = "pc_mesa"
 	from = "pc_genesis"
-	to = "pc_gaia"
 	
 	energy = @terraform_cost
 	duration = @terraform_duration
 	
 	potential = {
 		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	to = "pc_oasis"
+	from = "pc_genesis"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	to = "pc_hajungle"
+	from = "pc_genesis"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+#############
+##PD Exotic##
+#############
+terraform_link = {
+	to = "pc_methane"
+	from = "pc_genesis"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	to = "pc_ammonia"
+	from = "pc_genesis"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+#############
+##PD Unique##
+#############
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_city"
+	
+	energy = @terraform_cost
+	duration = @terraform_duration
+	
+	potential = {
+		And = {
+			has_ascension_perk = "ap_city_world"
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 		ai_weight = {
@@ -354,39 +466,6 @@ terraform_link = {
 				is_mechanical_empire = yes
 				is_cyborg_empire = yes
 				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_genesis"
-	
-	energy = @terraform_cost
-	duration = @terraform_duration
-	
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-		from = { has_modifier = terraforming_candidate }
-	}
-	
-	ai_weight = {
-		weight = 20
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
 			}
 		}
 	}
