@@ -1,0 +1,265 @@
+@tier5cost2 = 17000
+@tier5weight2 = 25
+tech_ascension_theory_apoc_1 = {
+	area = physics
+	cost = @tier5cost2
+	tier = 5
+	category = { computing }
+	ai_update_type = all
+	is_rare = yes
+	weight = @tier5weight2
+	
+	modifier = {
+		ascension_perks_add = 1
+	}
+	
+	prerequisites = { "tech_ascension_theory_apoc" }
+	
+	potential = {
+		host_has_dlc = "Apocalypse"
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.20
+			NOR = {
+				has_modifier = "curator_insight"
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}			
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 9999
+	}
+}
+tech_ascension_theory_apoc_2 = {
+	area = society
+	cost = @tier5cost2
+	tier = 5
+	category = { statecraft }
+	ai_update_type = all
+	is_rare = yes
+	weight = @tier5weight2
+	
+	modifier = {
+		ascension_perks_add = 1
+	}
+	
+	prerequisites = { "tech_ascension_theory_apoc" }
+	
+	potential = {
+		host_has_dlc = "Apocalypse"
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.20
+			NOR = {
+				has_modifier = "curator_insight"
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}			
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 9999
+	}
+}
+tech_ascension_theory_apoc_3 = {
+	area = engineering
+	cost = @tier5cost2
+	tier = 5
+	category = { industry }
+	ai_update_type = all
+	is_rare = yes
+	weight = @tier5weight2
+	
+	modifier = {
+		ascension_perks_add = 1
+	}
+	prerequisites = { "tech_ascension_theory_apoc" }
+	
+	potential = {
+		host_has_dlc = "Apocalypse"
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.20
+			NOR = {
+				has_modifier = "curator_insight"
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}			
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 9999
+	}
+}
+#####################################################################################################
+##Ascension techy w/o apocalypse
+#####################################################################################################
+tech_ascension_theory_1= {
+	area = physics
+	cost = @tier5cost2
+	tier = 5
+	category = { computing }
+	ai_update_type = all
+	is_rare = yes
+	weight = @tier5weight2
+	
+	modifier = {
+		ascension_perks_add = 1
+	}	
+	
+	prerequisites = { "tech_ascension_theory" }
+	
+	potential = {
+		NOT = {
+			host_has_dlc = "Apocalypse"
+		}
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0
+		}
+		modifier = {
+			factor = 0.20
+			NOR = {
+				has_modifier = "curator_insight"
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}			
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 9999
+	}
+}
+tech_ascension_theory_2 = {
+	area = society
+	cost = @tier5cost2
+	tier = 5
+	category = { statecraft }
+	ai_update_type = all
+	is_rare = yes
+	weight = @tier5weight2
+	
+	modifier = {
+		ascension_perks_add = 1
+	}	
+	
+	prerequisites = { "tech_ascension_theory" }
+	
+	potential = {
+		NOT = {
+			host_has_dlc = "Apocalypse"
+		}
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0
+		}
+		modifier = {
+			factor = 0.20
+			NOR = {
+				has_modifier = "curator_insight"
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}			
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 9999
+	}
+}
+tech_ascension_theory_3 = {
+	area = engineering
+	cost = @tier5cost2
+	tier = 5
+	category = { industry }
+	ai_update_type = all
+	is_rare = yes
+	weight = @tier5weight2
+	
+	modifier = {
+		ascension_perks_add = 1
+	}	
+	
+	prerequisites = { "tech_ascension_theory" }
+	
+	potential = {
+		NOT = {
+			host_has_dlc = "Apocalypse"
+		}
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0
+		}
+		modifier = {
+			factor = 0.20
+			NOR = {
+				has_modifier = "curator_insight"
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}			
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 9999
+	}
+}

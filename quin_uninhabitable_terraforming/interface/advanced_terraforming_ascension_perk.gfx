@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ap_advanced_terraforming"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_advanced_terraforming.dds"
+		alwaystransparent = yes
+	}
+
+
+}

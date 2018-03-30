@@ -1,0 +1,35 @@
+﻿l_english:
+#Ascension Perks
+ap_advanced_terraforming:0 "Uninhabitable World Terraformation"
+ap_advanced_terraforming_desc:0 "The transformation of dead worlds into living ones was once a far off dream. Advancements in climate manipulation now make that dream a possibility"
+requires_ascension_perk_world_shaper:0 "$TRIGGER_FAIL$Requires the World Shaper Ascension Perk"
+enable_advanced_terraforming_project:0 "Prepares a special project to develop the means to terraform lifeless worlds"
+#Techs
+tech_frozen_terraformation:0 "Frozen World Terraformation"
+tech_frozen_terraformation_desc:0 "By means of hurtling spaceborne objects into frozen worlds we can create enough internal vulcanism to sustain a biosphere"
+tech_molten_terraformation:0 "Induced Planetary Magnetosphere"
+tech_molten_terraformation_desc:0 "Groundbreaking research into the artificial creation of planetary magnetospheres allows us turn a molten world into lush paradise"
+tech_barren_terraformation:0 "Barren World Terraformation"
+tech_barren_terraformation_desc:0 "By strategically utilizing techniques that almost destroyed our homeworld centuries ago, we can produce a rampant green house effect to breathe life into worlds once barren"
+tech_toxic_terraformation:0 "Toxic World Terraformation"
+tech_toxic_terraformation_desc:0 "Large space based lasers can be used to disperse the choking cloud cover of toxic worlds. The result is a liveable, if a bit corrosive, planet"
+#Events
+quinterra.1.name:0 "Uninhabitable Worlds Special Project"
+quinterra.1.desc:0 "Recent insight into the life cycles of rocky planets has the scientific community in a frenzy. Though once thought outlandishly expensive, the terraformation of dead worlds now appears to within our means"
+quinterra.1.a:0 "Prepare a special project at once!"
+quinterra.2.name:0 "Uninhabitable Worlds Project Completed"
+quinterra.2.desc:0 "Research into the possible terraformation of lifeless worlds has concluded. The scientific community has partitioned these worlds into four categories. Unfortunately it is not feesable to produce the infrastucture for all four. A choice must be made for which type of dead planet we wish to be able to terraform"
+ADVANCED_TERRAFORM_FROZEN:0 "Frozen World Terraformation"
+quinterra.2.frozen.tooltip:0 "Allows the terraformation of frozen worlds"
+ADVANCED_TERRAFORM_MOLTEN:0 "Molten World Terraformation"
+quinterra.2.molten.tooltip:0 "Allows the terraformation of molten worlds"
+ADVANCED_TERRAFORM_BARREN:0 "Barren World Terraformation"
+quinterra.2.barren.tooltip:0 "Allows the terraformation of barren worlds"
+ADVANCED_TERRAFORM_TOXIC:0 "Toxic World Terraformation"
+quinterra.2.toxic.tooltip:0 "Allows the terraformation of toxic worlds"
+#projects
+ADVANCED_TERRAFORMING_PROJECT:0 "Uninhabitable Worlds Special Project"
+ADVANCED_TERRAFORMING_PROJECT_DESC:0 "Recent insight into the life cycles of rocky planets has the scientific community in a frenzy. Though once thought outlandishly expensive, the terraformation of dead worlds now appears to within our means"
+#terraforming
+pc_genesis:0 "Genesis World"
+pc_genesis_desc:0 "A world still recovering form the most extreme aspects of the terraforming process. While technically habitable, little can survive here besides the terraforming lichens"

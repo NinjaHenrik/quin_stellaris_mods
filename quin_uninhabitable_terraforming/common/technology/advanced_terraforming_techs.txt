@@ -1,0 +1,164 @@
+
+@tier4cost3 = 12000
+@tier4weight3 = 35
+
+#Frozen World Terraformation
+tech_frozen_terraformation = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_climate_restoration" }
+	weight = @tier4weight3
+	
+	potential = {
+		has_ascension_perk = ap_advanced_terraforming
+	}
+	modifier = {
+		max_energy = 2500
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+#Molten World Terraformation
+tech_molten_terraformation = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_climate_restoration" }
+	weight = @tier4weight3
+	
+	potential = {
+		has_ascension_perk = ap_advanced_terraforming
+	}
+	modifier = {
+		max_energy = 2500
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+#Barren World Terraformation
+tech_barren_terraformation = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_climate_restoration" }
+	weight = @tier4weight3
+	
+	potential = {
+		has_ascension_perk = ap_advanced_terraforming
+	}
+	modifier = {
+		max_energy = 2500
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+#Toxic World Terraformation
+tech_toxic_terraformation = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_climate_restoration" }
+	weight = @tier4weight3
+	
+	potential = {
+		has_ascension_perk = ap_advanced_terraforming
+	}	
+	modifier = {
+		max_energy = 2500
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}

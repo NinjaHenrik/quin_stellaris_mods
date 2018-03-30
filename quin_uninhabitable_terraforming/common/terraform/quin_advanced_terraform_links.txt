@@ -1,0 +1,392 @@
+################
+##Uninhabitble##
+################
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_genesis"
+	
+	energy = 10000
+	duration = 7200
+	
+	condition = {
+		has_technology = "tech_frozen_terraformation"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_genesis"
+	
+	energy = 10000
+	duration = 7200
+	
+	condition = {
+		has_technology = "tech_molten_terraformation"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_genesis"
+	
+	energy = 10000
+	duration = 7200
+	
+	condition = {
+		has_technology = "tech_barren_terraformation"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_genesis"
+	
+	energy = 10000
+	duration = 7200
+	
+	condition = {
+		has_technology = "tech_barren_terraformation"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_genesis"
+	
+	energy = 10000
+	duration = 7200
+	
+	condition = {
+		has_technology = "tech_toxic_terraformation"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+###########
+##Genesis##
+###########
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_desert"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_arid"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_savannah"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_arctic"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_tundra"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_alpine"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_continental"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_tropical"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_ocean"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			OR = {
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_genesis"
+	to = "pc_gaia"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+	}
+	
+		ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			energy < 40000
+		}
+		modifier = {
+			factor = 0		
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+terraform_link = {
+	to = "pc_machine"
+	from = "pc_genesis"
+	
+	energy = 10000
+	duration = 7200
+	
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+		from = { has_modifier = terraforming_candidate }
+	}
+	
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}

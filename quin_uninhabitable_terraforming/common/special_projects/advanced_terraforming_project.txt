@@ -1,0 +1,32 @@
+# Uninhabitable Terraforming Project
+special_project = {
+	key = "ADVANCED_TERRAFORMING_PROJECT"
+	cost = {
+		base = 1000
+		scaled_modifier = {
+			limit = {
+			}
+			scope = this
+			add = 100
+			calc = pop_count
+		}
+	}
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
+	picture = GFX_evt_toxic_planet
+	location = no
+	
+	event_scope = planet_event
+	
+	requirements = {
+	}
+	
+	on_success = {
+		owner = {
+			country_event = { id = quinterra.2 }
+		}
+	}
+	
+	on_fail = {
+	}
+}

@@ -1,0 +1,36 @@
+
+ap_advanced_terraforming = {
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perk_world_shaper"
+			has_ascension_perk = ap_world_shaper
+		}	
+	}
+
+	modifier = {
+		terraforming_cost_mult = -0.15
+		terraform_speed_mult = 0.20
+	}
+	
+	on_enabled = {
+		custom_tooltip = enable_advanced_terraforming_project
+		hidden_effect = {
+			country_event = { id = quinterra.1 }
+		}
+	}
+	
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_advanced_terraforming
+		}
+	}
+	
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 0.1
+			has_authority = auth_machine_intelligence
+			NOT = { has_ascension_perk = ap_machine_worlds }
+		}
+	}
+}

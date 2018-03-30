@@ -1,0 +1,77 @@
+#Uninhabitable Terraforming Events
+
+namespace = quinterra
+
+country_event = {
+	id = quinterra.1
+	title = quinterra.1.name
+	desc = quinterra.1.desc
+	picture = GFX_evt_toxic
+	show_sound = event_radio_chatter
+	location = capital_scope
+
+	is_triggered_only = yes
+
+	option = {
+		name = quinterra.1.a
+		capital_scope = {
+			enable_special_project = {
+				name = "ADVANCED_TERRAFORMING_PROJECT"
+				location = this
+				owner = root
+			}
+		}
+	}
+}
+
+country_event = {
+	id = quinterra.2
+	title = quinterra.2.name
+	desc = quinterra.2.desc
+	picture = GFX_evt_toxic
+	show_sound = event_radio_chatter
+	location = capital_scope
+
+	is_triggered_only = yes
+
+	option = {
+		name = "ADVANCED_TERRAFORM_FROZEN"
+		custom_tooltip = quinterra.2.frozen.tooltip
+		hidden_effect = {
+			add_research_option = tech_frozen_terraformation
+			give_technology = {
+				tech = tech_frozen_terraformation
+			}
+		}
+	}
+	option = {
+		name = "ADVANCED_TERRAFORM_MOLTEN"
+		custom_tooltip = quinterra.2.molten.tooltip
+		hidden_effect = {
+			add_research_option = tech_molten_terraformation
+			give_technology = {
+				tech = tech_molten_terraformation
+			}
+		}
+	}
+	option = {
+		name = "ADVANCED_TERRAFORM_BARREN"
+		custom_tooltip = quinterra.2.barren.tooltip
+		hidden_effect = {
+			add_research_option = tech_barren_terraformation
+			give_technology = {
+				tech = tech_barren_terraformation
+			}
+		}
+	}
+	option = {
+		name = "ADVANCED_TERRAFORM_TOXIC"
+		custom_tooltip = quinterra.2.toxic.tooltip
+		hidden_effect = {
+			add_research_option = tech_toxic_terraformation
+			give_technology = {
+				tech = tech_toxic_terraformation
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+﻿l_english:
+
+ # Ascension perk
+ tech_ascension_theory_1:0 "Physics Ascension"
+ tech_ascension_theory_1_desc:0 "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit."
+ tech_ascension_theory_apoc_1:0 "$tech_ascension_theory_1$"
+ tech_ascension_theory_apoc_1_desc:0 "$tech_ascension_theory_1_desc$"
+ 
+  tech_ascension_theory_2:0 "Societal Ascension"
+ tech_ascension_theory_2_desc:0 "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit."
+ tech_ascension_theory_apoc_2:0 "$tech_ascension_theory_2$"
+ tech_ascension_theory_apoc_2_desc:0 "$tech_ascension_theory_2_desc$"
+ 
+ tech_ascension_theory_3:0 "Engineering Ascension"
+ tech_ascension_theory_3_desc:0 "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit."
+ tech_ascension_theory_apoc_3:0 "$tech_ascension_theory_3$"
+ tech_ascension_theory_apoc_3_desc:0 "$tech_ascension_theory_3_desc$"
