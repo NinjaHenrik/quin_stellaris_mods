@@ -17,6 +17,7 @@ ap_advanced_terraforming = {
 		hidden_effect = {
 			country_event = { id = quinterra.1 }
 			country_event = { id = quinterra.3 }
+			country_event = { id = quinterra.4 }
 		}
 	}
 	
