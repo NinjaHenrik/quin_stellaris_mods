@@ -12,7 +12,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -35,7 +38,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -58,7 +64,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -81,7 +90,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -104,7 +116,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -130,7 +145,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -156,7 +174,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -179,7 +200,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -202,7 +226,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -225,7 +252,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -248,7 +278,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -274,7 +307,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -300,7 +336,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -323,7 +362,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -346,7 +388,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -369,7 +414,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -395,7 +443,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -418,7 +469,10 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		has_ascension_perk = "ap_world_shaper"
+		AND = {
+			has_global_flag = has_planetary_diversity
+			has_ascension_perk = "ap_world_shaper"
+		}
 	}
 	
 	ai_weight = {
@@ -444,8 +498,9 @@ terraform_link = {
 	duration = @terraform_duration
 	
 	potential = {
-		And = {
+		AND = {
 			has_ascension_perk = "ap_city_world"
+			has_global_flag = has_planetary_diversity
 			has_ascension_perk = "ap_world_shaper"
 		}
 	}

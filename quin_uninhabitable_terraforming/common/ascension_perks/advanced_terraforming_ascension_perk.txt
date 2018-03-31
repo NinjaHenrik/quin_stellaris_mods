@@ -16,6 +16,7 @@ ap_advanced_terraforming = {
 		custom_tooltip = enable_advanced_terraforming_project
 		hidden_effect = {
 			country_event = { id = quinterra.1 }
+			country_event = { id = quinterra.3 }
 		}
 	}
 	

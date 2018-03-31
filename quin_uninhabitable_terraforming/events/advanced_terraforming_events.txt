@@ -75,3 +75,61 @@ country_event = {
 		}
 	}
 }
+#############################
+##Detect if PD is installed##
+#############################
+country_event = {
+	id = quinterra.3
+	#title = quinterra.3.name
+	#desc = quinterra.3.desc
+	#picture = GFX_evt_toxic
+	hide_window = yes
+	is_triggered_only = yes
+	location = country_scope
+	
+	trigger = {
+		NOT = { has_country_flag = has_planetary_diversity }
+	}
+	
+	immediate = {
+		random_planet = {
+			limit = {
+				OR = {
+					is_planet_class = pc_glacial
+					is_planet_class = pc_frozen_desert
+					is_planet_class = pc_steppe
+					is_planet_class = pc_hadesert
+					is_planet_class = pc_antarctic
+					is_planet_class = pc_subarctic
+					is_planet_class = pc_geothermal
+					is_planet_class = pc_cascadian
+					is_planet_class = pc_swamp
+					is_planet_class = pc_oasis
+					is_planet_class = pc_methane
+					is_planet_class = pc_ammonia
+				}
+			}
+			if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_glacial
+						is_planet_class = pc_frozen_desert
+						is_planet_class = pc_steppe
+						is_planet_class = pc_hadesert
+						is_planet_class = pc_antarctic
+						is_planet_class = pc_subarctic
+						is_planet_class = pc_geothermal
+						is_planet_class = pc_cascadian
+						is_planet_class = pc_swamp
+						is_planet_class = pc_oasis
+						is_planet_class = pc_methane
+						is_planet_class = pc_ammonia
+					}
+				}
+				any_country = {
+					set_global_flag = has_planetary_diversity
+				}
+			}
+		}
+	}
+}
